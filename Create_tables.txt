@@ -1,0 +1,28 @@
+create table IN453.IN453A
+(
+    sequence varchar(40),
+    source varchar(40),
+    destination varchar(40),
+    domain varchar(40),
+    length varchar(40),
+    info varchar(1000)
+);
+
+create table IN453.IN453B
+(
+    first_name varchar(40),
+    last_name varchar(40),
+    email varchar(200),
+    source varchar(40),
+    destination varchar(40)
+);
+
+create table IN453.IN453C
+(
+    AppID varchar(40),
+    AppName varchar(40),
+    AppVersion varchar(40),
+    source varchar(40),
+    destination varchar(40),
+    DigSig varcahr(1000)
+);
